@@ -1,45 +1,18 @@
-SaaS: Perangkat Lunak sebagai Layanan
-	Merupakan layanan menjalankan aplikasi di cloud publik. Pengguna menggunakan aplikasi ini melalui Internet. Aplikasi ini dikelola oleh Penyedia Layanan. Seperti SalesForce, Microsoft (Office 365), Oracle, Google (Google Apps), dll.
-		Salesforce adalah perusahaan pertama yang mengubah dunia Saas, dan sejak saat itu, perusahaan lain telah melihat potensi di pasar ini dan meluncurkan aplikasi mereka.
-
-Iaas: Infrastruktur sebagai Layanan
-	Layanan ini menyediakan lingkungan bagi pengembang untuk membangun aplikasi yang dapat digunakan pengguna. 
-	IaaS meliputi:
-		1. Pengguna membuat mesin virtual (VM) sesuai permintaan.
-		2. Dari perpustakaan gambar VM.
-	Amazon (AWS) adalah vendor terkemuka dalam menyediakan IaaS.
-
-PaaS: Platform sebagai Layanan
-	Ini agak mirip dengan IaaS tetapi perbedaannya adalah:
-		1. Pengembang menyediakan aplikasi yang dijalankan platform.
-		2. Mereka tidak secara langsung membuat VM.
-	Paas terlihat sederhana dan itulah sebabnya banyak digunakan. Namun sebernarnya Iaas 10x lebih populer dari Paas. 
-
-
-SAAS (Software as a Service) Platform Architecture
-	SaaS adalah model lisensi dan pengiriman perangkat lunak di mana perangkat lunak dilisensikan berdasarkan berlangganan dan di-host secara terpusat. Pengguna dapat mengaksesnya dengan bantuan browser web. SaaS adalah model pengiriman umum untuk banyak aplikasi bisnis, termasuk perangkat lunak perkantoran dan pesan, perangkat lunak manajemen, virtualisasi dll. Ini adalah bagian dari nomenklatur komputasi awan, bersama dengan infrastruktur sebagai layanan (IaaS), platform sebagai layanan (PaaS) , desktop sebagai layanan (DaaS).
-
-	Ada dua varietas utama SaaS:
-		1. SaaS Vertikal
-		2. Perangkat Lunak yang menjawab kebutuhan industri tertentu seperti Perangkat lunak untuk kesehatan, pertanian, real estat, industri keuangan)
-		3. SaaS Horisontal
-		4. Produk-produk yang berfokus pada kategori perangkat lunak (pemasaran, penjualan, alat pengembang, SDM) tetapi agnostik industri.
-
-	Kesimpulan :
-	Perusahaan sebaiknya mempertimbangkan fleksibilitas dan implikasi manajemen risiko dalam menambahkan SaaS ke portofolio layanan TI . Integrasi dan komposisi adalah komponen penting dalam strategi arsitektur Anda untuk menggabungkan SaaS dengan sukses sebagai anggota yang berpartisipasi penuh dari infrastruktur TI  yang berpusat pada layanan. 
-
-SAAS (Software as a Service) Platform Architecture
-	SaaS adalah cara untuk mengirimkan perangkat lunak, penyedia perangkat lunak ini secara sentral menampung satu atau lebih aplikasi dan membuatnya tersedia bagi pelanggan melalui internet.
-
-	SaaS juga merupakan salah satu pilar utama komputasi awan. Sebuah ledakan dalam komputasi Cloud, didorong oleh penyedia cloud seperti Microsoft dengan Azure atau Amazon dengan AWS, telah melihat pertumbuhan produk dan layanan lain yang disampaikan melalui internet seperti:
-		1. Infrastruktur sebagai Layanan
-		2. Platform sebagai Layanan
-		3. Pembelajaran Mesin sebagai Layanan
-
-How to build a cloud-based SaaS application
-	Saat membangun aplikasi SaaS (global), ada kemungkinan besar bahwa Anda membangunnya di cloud. Cloud memiliki banyak keunggulan - pikirkan skalabilitas - berbeda dengan lingkungan server lokal.
-
-	Membangun a cloud-based Saas application
-		1. Pilih bahasa pemrograman, dalam hal ini menggunakan bahasa pemrograman python
-		2. Memilih database yang sempurna, dalam hal ini menggunakan MongoDB sebagai database untuk aplikasi web
-		3. memilih Queuning system yang tepat, dalan hal ini queuing system yang gunakan yaitu RabbitMQ
+Rangkuman Cloud Computing
+Cloud Computing adalah suatu konsep umum yang mencakup SaaS, Web 2.0, dan tren teknologi terbaru lain yang dikenal luas, dengan tema umum berupa ketergantungan terhadap Internet untuk memberikan kebutuhan komputasi pengguna. Sebagai contoh, Google Apps menyediakan aplikasi bisnis umum secara daring yang diakses melalui suatu penjelajah web dengan perangkat lunak dan data yang tersimpan di server.
+Sejarah Cloud Computing
+Pada tahun 50-an, Cloud Computing memiliki konsep yang mendasar. Ketika komputer mainframe yang tersedia dalam skala yang besar dalam dunia pendidikan dan perusahaan dapat diakses melalui komputer terminal disebut dengan Terminal statis. Terminal tersebut hanya dapat digunakan untuk melakukan komunikasi tetapi tidak memiliki kapasitas pemrosesan internal. Agar penggunaan komputer mainframe yang relatif mahal menjadi efisien maka mengembangkan akses fisik komputer dari pembagian kinerja CPU. Hal ini dapat menghilangkan periode tidak aktif pada mainframe, memungkinkan untuk kembali pada investasi. Hingga pertengahan tahun 70-an dikenal dengan RJE remote prosess Entry Home Job yang berkaitan besar dengan IBM dan DEC Mainframe
+Manfaat Cloud Computing
+ada banyak manfaat yang bisa kita ambil dari cloud computing, yaitu:
+Skalabilitas, yaitu dengan cloud computing kita bisa menambah kapasitas penyimpanan data kita tanpa harus membeli peralatan tambahan, misalnya hardisk dll. Kita cukup menambah kapasitas yang disediakan oleh penyedia layanan cloud computing.
+Aksesibilitas, yaitu kita bisa mengakses data kapanpun dan dimanapun kita berada, asal kita terkoneksi dengan internet, sehingga memudahkan kita mengakses data disaat yang penting.
+Keamanan, yaitu data kita bisa terjamin keamanan nya oleh penyedia layanan cloud computing, sehingga bagi perusahaan yang berbasis IT, data bisa disimpan secara aman di penyedia cloud computing. Itu juga mengurangi biaya yang diperlukan untuk mengamankan data perusahaan.
+Kreasi, yaitu para user bisa melakukan/mengembangkan kreasi atau project mereka tanpa harus mengirimkan project mereka secara langsung ke perusahaan, tapi user bisa mengirimkan nya lewat penyedia layanan cloud computing.
+Kecemasan, ketika terjadi bencana alam data milik kita tersimpan aman di cloud meskipun hardisk atau gadget kita rusak.
+Layanan Cloud Computing
+1. Infrastructure as a Service (IaaS)
+Infrastructure as a Service adalah layanan komputasi awan yang menyediakan infrastruktur IT berupa CPU, RAM, storage, bandwith dan konfigurasi lain. Semua komponen tersebut digunakan untuk membangun komputer virtual. Komputer virtual dapat diinstal sistem operasi dan aplikasi sesuai kebutuhan. Keuntungan layanan IaaS ini adalah tidak perlu membeli komputer fisik sehingga lebih menghemat biaya. Konfigurasi komputer virtual juga bisa diubah sesuai kebutuhan. Misalkan saat storage hampir penuh, storage bisa ditambah dengan segera. Perusahaan yang menyediakan IaaS adalah Amazon EC2, Telkom Cloud dan BizNetCloud.
+2. Platform as a Service (PaaS)
+Platform as a Service adalah layanan yang menyediakan computing platform. Biasanya sudah terdapat sistem operasi, database, web server dan framework aplikasi agar dapat menjalankan aplikasi yang telah dibuat. Perusahaan yang menyediakan layanan tersebutlah yang bertanggung jawab dalam pemeliharaan computing platform ini. Keuntungan layanan PaaS ini bagi pengembang adalah mereka bisa fokus pada aplikasi yang mereka buat tanpa memikirkan tentang pemeliharaan dari computing platform. Contoh penyedia layanan PaaS adalah Amazon Web Service dan Windows Azure.
+3. Software as a Service (SaaS)
+Software as a Service adalah layanan komputasi awan dimana kita bisa langsung menggunakan aplikasi yang telah disediakan. Penyedia layanan mengelola infrastruktur dan platform yang menjalankan aplikasi tersebut. Contoh layanan aplikasi E-mail yaitu Gmail, Yahoo Mail dan Microsoft Outlook sedangkan contoh aplikasi media sosial adalah Twitter, Facebook dan Google+. Keuntungan dari layanan ini adalah pengguna tidak perlu membeli lisensi untuk mengakses aplikasi tersebut. Pengguna hanya membutuhkan perangkat klien komputasi awan yang terhubung ke internet. Ada juga aplikasi yang mengharuskan pengguna untuk berlangganan agar bisa mengakses aplikasi yaitu Office 365 dan Adobe Creative Cloud.
